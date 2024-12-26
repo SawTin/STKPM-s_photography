@@ -1,3 +1,5 @@
+![flower](https://github.com/user-attachments/assets/0d74927f-242f-477c-b69d-8d90156554e1)
+![River_sunset](https://github.com/user-attachments/assets/dd1dd35e-83bc-4955-9795-963f1b241e10)
 ![cover_photo](https://github.com/user-attachments/assets/b91b043c-4d4f-41a5-bc6d-dd3620ff0735)
 ![checkmark--outline](https://github.com/user-attachments/assets/7fe479bc-fe4d-4981-bedf-8f395cfda741)
 ![bullet](https://github.com/user-attachments/assets/665bb57f-9661-4618-bf88-b68b9112bcf8)
