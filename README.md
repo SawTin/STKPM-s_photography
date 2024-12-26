@@ -1,0 +1,1 @@
+# STKPM-s_photography
