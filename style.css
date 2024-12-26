@@ -5,7 +5,7 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #7600bc;
+  background-color:  #97E4F1;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -16,7 +16,7 @@ body {
  }
 
 .topmenu {
-  color: lightgray;
+  color:  #FCF5DB;
   margin: 10px;
   padding: 20px;
   font-size: 20px;
