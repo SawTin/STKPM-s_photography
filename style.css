@@ -277,6 +277,29 @@ h2 {
   margin-left: 25%;
 }
 
+/*gallery*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #cccccc;
+  float: left;
+  width: auto;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 350px;
+  height: auto;
+}
+
+div.desc {
+  padding: auto;
+  text-align: center;
+}
+
+
 /* Recommendation Form */
 
 input, textarea {
