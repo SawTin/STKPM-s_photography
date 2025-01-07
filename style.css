@@ -18,7 +18,7 @@ body {
   color:  #FCF5DB;
   margin: 10px;
   padding: 20px;
-  font-size: 20px;
+  font-size: clamp(1rem, 4vw, 1.8rem); /* Flexible font size */
   text-decoration: none;
 }
 
@@ -34,6 +34,7 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
+  font-size: clamp(1rem, 3.5vw, 2rem); /* Flexible font size */
 }
 
 .profile_name .contact_info {
@@ -52,14 +53,14 @@ body {
 /* Titles */
 h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: clamp(1.5rem, 6vw, 4rem); /* Flexible font size */
   color: #7600bc;
   margin: 30px 60px;
 }
 
 .introduction {
   text-align: center;
-  font-size: 30px;
+  font-size: clamp(1.2rem, 5vw, 2.5rem); /* Flexible font size */
   margin: 30px 0;
 }
 
@@ -72,7 +73,7 @@ h2 {
 
 /* About Me */
 #about-me h1 {
-  font-size: 65px;
+  font-size: clamp(2rem, 7vw, 4rem); /* Flexible font size */
   margin-top: 90px;
   color: #7600bc;
 }
@@ -101,11 +102,6 @@ h2 {
   filter: blur(0px);
 }
 
-.loading-text {
-  font-size: 50px;
-  color: #fff;
-}
-
 /* Expanding Cards Styles */
 .panel {
   background-size: cover;
@@ -122,7 +118,7 @@ h2 {
 }
 
 .panel h3 {
-  font-size: 24px;
+  font-size: clamp(1rem, 3.5vw, 2rem); /* Flexible font size */
   position: absolute;
   bottom: 20px;
   left: 20px;
@@ -154,7 +150,7 @@ h2 {
   margin: 50px;
   padding: 10px;
   width: 2in;
-  font-size: 20px;
+  font-size: clamp(1rem, 4vw, 2rem); /* Flexible font size */
   box-shadow: 0 3px 10px gray;
 }
 
@@ -163,14 +159,14 @@ h2 {
 }
 
 .skills h6 {
-  font-size: 20px;
+  font-size: clamp(1rem, 3.5vw, 2rem); /* Flexible font size */
   margin-block-start: 8px;
   margin-block-end: 5px;
   font-weight: bold;
 }
 
 .skills p {
-  font-size: 15px;
+  font-size: clamp(1rem, 3.5vw, 1.5rem); /* Flexible font size */
   color: gray;
   margin-block-start: 5px;
   margin-block-end: 5px;
@@ -200,12 +196,12 @@ h2 {
 }
 
 .project-card h3 {
-  font-size: 25px;
+  font-size: clamp(1rem, 4vw, 2.5rem); /* Flexible font size */
   margin-left: 30px;
 }
 
 .project-card li {
-  font-size: 20px;
+  font-size: clamp(1rem, 3.5vw, 2rem); /* Flexible font size */
   margin-left: 30px;
 }
 
@@ -230,13 +226,13 @@ h2 {
   padding: 20px;
   margin: 10px;
   border: 1px solid gray;
-  font-size: 18px;
+  font-size: clamp(1rem, 3vw, 1.8rem); /* Flexible font size */
   height: 150px;
 }
 
 .recommendation span {
   color: #7600bc;
-  font-size: 20px;
+  font-size: clamp(1rem, 3.5vw, 2rem); /* Flexible font size */
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -282,7 +278,7 @@ h2 {
   margin: 50px;
   padding: 10px;
   width: 2in;
-  font-size: 20px;
+  font-size: clamp(1rem, 4vw, 1.5rem); /* Flexible font size */
   margin-left: 25%;
 }
 
@@ -348,7 +344,7 @@ button {
   margin: 50px;
   padding: 10px;
   width: 2in;
-  font-size: 20px;
+  font-size: clamp(1rem, 4vw, 1.5rem); /* Flexible font size */
 }
 
 button:hover {
@@ -373,15 +369,16 @@ button:hover {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: clamp(1.5rem, 6vw, 3rem); /* Flexible font size */
   }
 
   .topmenu {
-    font-size: 16px;
+    font-size: clamp(1rem, 4vw, 1.5rem); /* Flexible font size */
   }
 
   .profile_name {
     padding-left: 1cm;
+    font-size: clamp(1rem, 3vw, 2rem); /* Flexible font size */
   }
 
   .profile_image {
@@ -389,11 +386,11 @@ button:hover {
   }
 
   .loading-text {
-    font-size: 30px;
+    font-size: clamp(1.2rem, 5vw, 3rem); /* Flexible font size */
   }
 
   .recommendation {
-    font-size: 16px;
+    font-size: clamp(1rem, 3vw, 1.5rem); /* Flexible font size */
     padding: 10px;
   }
 
@@ -401,4 +398,11 @@ button:hover {
     margin-left: 0;
   }
 
-  .project-card h
+  .project-card h3 {
+    font-size: clamp(1rem, 3.5vw, 2rem); /* Flexible font size */
+  }
+
+  .project-card li {
+    font-size: clamp(1rem, 3.5vw, 1.8rem); /* Flexible font size */
+  }
+}
